@@ -2,7 +2,7 @@
 <html lang="pt-BR">
     <head><!--informações-->
             <title>Site para o jogo</title><!--titulo/informação q esta na aba de procura-->
-            <meta charset="utf-8"><!-- o charset é tipo setar um caracter,utf-8 é uma tabela de caracteres-->
+            <meta charset="UTF-8"><!-- o charset é tipo setar um caracter,utf-8 é uma tabela de caracteres-->
 <!--aq eu atribui uma cor para todo o "a",<style>-->
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,24 +14,40 @@
         <link rel="stylesheet" href="css/components/title.css">
         <link rel="stylesheet" href="css/components/Subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/action.css">
+        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/banner.css">
     </head>
 
     <body>
-        <header>
-            <h1>FSouza</h1>
+        <header class="header">
+            <img src="assets/img/" alt="Avatar do site">
 
             <nav><!--NAVEGAÇÃO-->
-                <a href="" lang="en">Skills</a><!-- ANCORA--><!--emmit usa assim:head>img+nav>a*5-->
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
-                <a href="">Contatos</a>
-                <a id= "button" href="">Download CV</a>
+                <a class="action" href="" lang="en">Skills</a><!-- ANCORA--><!--emmit usa assim:head>img+nav>a*5-->
+                <a class="action" href="">Projetos</a>
+                <a class="action" href="">Sobre</a>
+                <a class="action" href="">Contatos</a>
+                <a class="button" href="">Download CV</a>
             </nav>
         </header>
 
-    <div id='box'>
-        <h2> Felipe Souza</h2>
-        <h3>Student</h3></div>
+    <section class="banner">
+        <div class="wraper">
+                <div class="box">
+
+                    <h1 class="title"> Felipe Souza</h1>
+                    <h2 class="subtitle">Student</h2>
+                </div>
+                <div class="navigation">
+
+                    <a class= "button" href="">Download CV</a>
+                    <a class="button" href="">Contatos</a>
+                  
+                </div>
+        </div>
+    </section>
     </body> 
 </html>
 
