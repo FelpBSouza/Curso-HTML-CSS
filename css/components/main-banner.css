@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     background-image: url(../../assets/img/pngtree-space-universe-banner-background-and-technologymeteorplanetcosmic-banner-image_54036.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -8,16 +8,16 @@
     padding-left: 60px;
     
 }
-.banner .wrapper{
+.main-banner .wrapper{
     display: inline-flex;
     width: 640px;
 }
-.banner .box{
+.main-banner .box{
     margin-bottom: 40px;
    
 }
 
-.banner .navigation{
+.main-banner .navigation{
 display: flex;
 justify-content:space-around;
 width: 572px;
